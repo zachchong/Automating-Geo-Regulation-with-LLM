@@ -1,6 +1,49 @@
 
 # Geo-Compliance AI Assistant
 
+# Setup Instructions
+# macOS
+# 1. Set up Python environment (using venv)
+python3 -m venv venv
+
+# 2. Activate environment
+source venv/bin/activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the project
+python main.py
+
+
+# Window
+# 1. Set up Python environment (using venv)
+python -m venv venv
+
+# 2. Activate environment
+.\venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the project
+python main.py
+
+
+
+# 1. Set up Python environment (using venv)
+python3 -m venv venv
+
+# 2. Activate environment
+source venv/bin/activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the project
+python main.py
+
+
 ## 1. Inspiration
 
 ### 1.1 Problem Statement
@@ -64,3 +107,4 @@ The RAG architecture combines knowledge retrieval with generative reasoning:
 
 ## 5. What’s Next
 - Explore **GraphRAG** for deeper relational reasoning across compliance documents and knowledge bases.  
+
