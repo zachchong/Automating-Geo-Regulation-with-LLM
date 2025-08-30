@@ -45,7 +45,7 @@ python main.py
 As corporations or organizations expand their business to global scope, services they offer must comply with a complex and constantly evolving set of geo-specific regulations. Manually identifying and managing these regulatory requirements is time-consuming, error-prone, and costly. Failure to meet these compliance obligations can result in significant legal and financial consequences, exposing organizations to substantial risks.
 
 ### 1.2 Motivations and Aim
-With the rise of generative AI and retrieval-based systems, we saw an opportunity to build a trusted AI assistant for legal insights. Our goal aligns with TechJam Track #3, this is not to replace lawyers, but to augment them, reduce research friction, and empower individuals to make more informed decisions, from a higher level of surveillance.
+With the rise of generative AI and retrieval-based systems, we saw an opportunity to build a trusted AI assistant for legal insights. This is not to replace lawyers, but to augment them, reduce research friction, and empower individuals to make more informed decisions, from a higher level of surveillance.
 
 We aim to build a working system that:
 - ✅ Flag features requiring geo-specific compliance logic and provide clear reasoning  
@@ -112,4 +112,5 @@ The architecture combines **knowledge retrieval** with **generative reasoning**:
 - 🔮 Explore **GraphRAG** for deeper relational reasoning across compliance documents and knowledge bases.  
 
 ---
+
 
