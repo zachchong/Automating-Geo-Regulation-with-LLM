@@ -21,21 +21,9 @@ from langchain_community.vectorstores import Chroma
 from langchain.prompts import ChatPromptTemplate
 from langchain.output_parsers import StructuredOutputParser, ResponseSchema
 from langchain_core.documents import Document
-from chromadb import telemetry
-
-# Disable all telemetry
-original_capture = telemetry.product_telemetry_client.ProductTelemetryClient.capture
-
-def silent_capture(self, *args, **kwargs):
-    """Silently ignore all telemetry events"""
-    return None
-
-# Apply the monkey patch
-telemetry.product_telemetry_client.ProductTelemetryClient.capture = silent_capture
 
 # Also set environment variable for good measure
 os.environ["ANONYMIZED_TELEMETRY"] = "False"
-os.environ["CHROMA_TELEMETRY_DISABLED"] = "True"
 
 class ComplianceGuardian:
     def __init__(self, use_cache: bool = True):
