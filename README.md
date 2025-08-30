@@ -28,7 +28,7 @@ python main.py
 python -m venv venv
 
 # 2. Activate environment
-.env\Scriptsctivate
+venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
@@ -112,3 +112,4 @@ The architecture combines **knowledge retrieval** with **generative reasoning**:
 - 🔮 Explore **GraphRAG** for deeper relational reasoning across compliance documents and knowledge bases.  
 
 ---
+
